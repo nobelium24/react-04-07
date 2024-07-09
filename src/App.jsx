@@ -1,5 +1,6 @@
-import { Routes, Route, Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import SignUp from "./pages/signup";
+import ImageUpload from "./pages/imageUpload";
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       {/* <Router> */}
         <Routes>
           <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/uploads" element={<ImageUpload />} />
         </Routes>
       {/* </Router> */}
     </div>
